@@ -1,0 +1,82 @@
+body {
+  background-image: url('/static/background.png');
+}
+#mainbox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid;
+}
+
+#mainbox h1 {
+  text-align: center;
+  font-family: 'Sofia';
+}
+#presetbox {
+  display: inline-block;
+  width:200px;
+  height: 300px;
+  border:1px solid;
+  vertical-align:top;
+  border-left: 0px;
+  border-bottom: 0px;
+}
+#custombox {
+  display: inline-block;
+  width:200px;
+  height: 300px;
+  border:1px solid;
+  vertical-align:top;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+#color {
+  text-align: center;
+  font-family: "Oswald";
+  height: 55%;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Sofia';
+}
+
+#select {
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+hr {
+  width: 75%;
+}
+
+select {
+  text-align: center;
+  width: 200px;
+  height: 60%;
+  font-family: 'Oswald';
+  font-size: 25px;
+  border: 0px;
+
+}
+button {
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 15px;
+  border: 1px outset black;
+  background-color: lightgray;
+  height:25px;
+  width:70px;
+  cursor:pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+   background-color: purple;
+   color:white;
+}

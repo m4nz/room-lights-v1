@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Site</title>
+    <meta name="description" content="My template">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+
+</head>
+<body>
+
+  <div id="mainbox">
+    <div>
+    <h1>RoomLight V1</h1>
+    <a href="/" id=on><button style="margin-left: 8.75em;"> On </button></a>
+    <a href="/" id=off><button> Off </button></a>
+  </div>
+    <div id="presetbox">
+      <h2>Effects</h2>
+      <hr>
+
+
+      <select id="selectedeffect" multiple>
+      <option value = "static">Static</option>
+      <option value = "rainbow">Rainbow</option>
+      <option value = "colorwipe">Colorwipe</option>
+      <option value = "breathing" disabled>Breathing</option>
+      </select>
+      
+
+    </div>
+
+
+    <div id="custombox">
+      <h2>Customize</h2>
+      <hr>
+
+      <div id="color">
+        <label for="colorWell1">Color:</label>
+        <input type="color" value="#0000ff" id="colorWell1">
+        <br><br>
+        <label for="colorWell2" id="colorWell2Label">Color2:</label>
+        <input type="color" value="#ff0000" id="colorWell2">
+      </div>
+      <hr>
+      <a href="/" id=update style="margin-left: 32%;"><button> Update </button></a>
+      </div>
+  </div>
+
+
+<!-- scripts -->
+<script src="static/js/colorpicker.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/js/pyfunctionhandler.js"></script>
+
+
+</body>
+</html>
